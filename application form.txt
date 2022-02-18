@@ -1,1 +1,2 @@
 This is my registeration form.
+"Welcome to the registeration process" !
