@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"></head>
+
+<body>
+  <h2> REGISTERATION FORM  </h2>
+  <form>
+    <ol>
+      <li><label for="fname">FIRST NAME:-</label><br></li>
+      <input type="text" id="fname" name="fname"> <br>
+      <label for="lname">LAST NAME:-</label><br>
+      <input type="text" id="lname" name="lname" ><br>
+      <li><label for="pwd">PASSWORD:</label><br></li>
+      <input type="password" id="pwd" name="pwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"  title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 characters" required>
+      <i class="far fa-eye" id="togglePassword" margin-left:-30px; cursor: pointer;>Password</i>
+            
+    
+      <li><label for="birthday">Birthday:</label></li>
+      <input type="date" id="birthday" name="birthday">
+      <li><label for="email id">E-MAIL ID:-</label> </li> <br>
+      <input type="email" id="email id" name="E-mail id"> <br>
+      <li><p>ADDRESS</p>
+      </li>
+      <textarea name="message"></textarea> <br>
+      <li>
+        <p>SELECT GENDER:-</p>
+      </li>
+      <input type="radio" id="male" name="select gender" value="male">
+      <label for="male">MALE</label><br>
+      <input type="radio" id="female" name="select gender" value="female" 
+      <label for="female">FEMALE</label><br>
+      <input type="radio" id="transgender" name="select gender" value="transgender" <label
+        for="transgender">TRANSGENDER</label><br>
+      <li> <label for="myfile">Select a file:</label></li>
+    
+      <input type="file" id="myfile" name="myfile"><br><br>
+
+      <li><label for="phone">Enter a phone number:</label><br><br></li>
+      <input type="tel" id="phone" name="phone"  maxlength="10"
+       placeholder="+91" pattern="[0-9]" required><br><br>
+      
+
+      <li><label for="CITY">CHOOSE A CITY:-</label></li>
+      <select id="city" name="city">
+        <option value="mumbai">MUMBAI</option>
+        <option value="new mumbai">NEW MUMBAI</option>
+        <option value="pune">PUNE</option>
+        <option value="nagpur">NAGPUR</option>
+      </select>
+
+      <li><label for="country">Country:</label></li>
+<li><select name="country">
+<option selected="" value="Default">(Please select a country)</option>
+<option value="AF">Australia</option>
+<option value="AL">Canada</option>
+<option value="DZ">India</option>
+<option value="AS">Russia</option>
+<option value="AD">USA</option>
+
+      <input type="checkbox">
+       <h9>I have read and agree all terms and condition given above.</h9>
+    
+      <p>Please click on terms and conditions and then confirm.</p>
+      <input type="submit" name="s" value="confirm"> <br>
+      <input type="reset">
+
+
+    </ol>
+</body>
+
+</html>
