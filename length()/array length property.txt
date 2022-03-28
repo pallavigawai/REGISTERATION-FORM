@@ -1,0 +1,10 @@
+Write a function getLastElement that takes an array and returns the last element of the array.
+
+Example: getLastElement([1, 2]) should return 2.
+
+output expected:-
+function getLastElement(arr){
+return arr.at(-1);
+//let lastIndex = anArray.length - 1;
+  return anArray[lastIndex];
+}
